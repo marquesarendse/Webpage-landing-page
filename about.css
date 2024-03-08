@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  font-family: Arial, "Helvetica Neue" ,Helvetica, sans-serif;
+  font-size: 17px;
+  color:#7C7C7C;
+  line-height: 1.6;
+}
+
+#showcase{
+    background-image:url(R35.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+#showcase h1{
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+
+#showcase .button{
+  position: bottom - center;
+  font-size: 18px;
+  text-decoration: none;
+  color: red;
+  border: red 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px; 
+}
+
+#showcase .button:hover{
+  background: red;
+  color: #fff;
+}
+
+#section-a{
+  padding: 20px;
+  background: #AEAEAE;
+  color: #fff;
+  text-align:center;
+}
+
+#section-b{
+  padding: 20px;
+  background: #7C7C7C;
+  color: #fff;
+  text-align:center;
+}
+
+#section-c{
+  padding: 20px;
+  background: #AEAEAE;
+  color: #fff;
+  text-align:center;
+}
+
+footer {
+  padding: 20px;
+  background: #121212;
+  color: #fff;
+  text-align:center;
+}

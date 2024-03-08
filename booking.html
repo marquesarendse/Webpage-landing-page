@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking.css">
+    <title>Book A Vehicle</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Vehicle Booking</h2>
+        <form id="bookingForm">
+          <label for="vehicleType">Vehicle Type:</label>
+          <select id="vehicleType" name="vehicleType" required>
+            <option value="Skyline R32">Skyline GTR</option>
+            <option value="Skyline R34">Skyline R34</option>
+            <option value="Skyline R35">Skyline R35</option>
+          </select>
+    
+          <label for="pickupDate">Pickup Date:</label>
+          <input type="date" id="pickupDate" name="pickupDate" required>
+    
+          <label for="returnDate">Return Date:</label>
+          <input type="date" id="returnDate" name="returnDate" required>
+    
+          <button type="button" onclick="submitForm()">Book Now</button>
+        </form>
+      </div>
+       
+</body>
+</html>
